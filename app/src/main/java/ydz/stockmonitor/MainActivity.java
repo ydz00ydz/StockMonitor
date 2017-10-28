@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         statusTxt=(EditText) findViewById(R.id.status);
         final Button fetchButton=(Button)findViewById(R.id.fetchButton);
         Button settingButton=(Button)findViewById(R.id.settingButton);
-
+        handler=new Handler();
 
 
         settingButton.setOnClickListener(new View.OnClickListener() {
@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this,SettingsActivity.class);
                 startActivity(intent);
-
             }
         });
 
