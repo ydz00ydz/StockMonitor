@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         statusTxt=(EditText) findViewById(R.id.status);
         final Button fetchButton=(Button)findViewById(R.id.fetchButton);
         Button settingButton=(Button)findViewById(R.id.settingButton);
-        handler=new Handler();
 
 
         settingButton.setOnClickListener(new View.OnClickListener() {
@@ -59,28 +58,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-//        Button testButton=(Button)findViewById(R.id.testButton);
-//        testButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent=new Intent(MainActivity.this,DebugActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-
-//        new Thread() {
-//            @Override
-//            public void run() {//在run()方法实现业务逻辑；
-//                //更新UI操作；
-//                handler.post(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        infoText.setText("使用Handler更新了界面");
-//                    }
-//                });
-//            }
-//        }.start();
     }
 
     //通过该方法，在其他类中可直接调用进行UI更新
