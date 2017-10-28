@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">股票监控</string>
+    <string name="fetchButton">抓取数据</string>
+    <string name="fetchButtonSuspend">暂停抓取</string>
+    <string name="fetchButtonResume">继续抓取</string>
+    <string name="settingButton">设置</string>
+    <string name="testButton">测试</string>
+    <string name="test1">测试1</string>
+    <string name="test2">测试2</string>
+    <string name="test3">测试3</string>
+
+    <string name="setting">设置</string>
+    <string name="hint_tone">提示音</string>
+    <string name="fetch_delay">监控间隔(s)</string>
+    <string name="fetch_delay_hint">此处输入监控间隔，最短8s</string>
+    <string name="fetch_delay_default">8</string>
+    <string name="warn_chg">报警涨跌幅(%/10s)</string>
+    <string name="warn_chg_hint">此处输入报警涨跌幅</string>
+    <string name="warn_chg_default">1.5</string>
+
+    <string name="about">关于</string>
+    <string name="author">作者</string>
+    <string name="ydz">YDZ@2017</string>
+</resources>

@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/setting">
+
+        <EditTextPreference
+            android:defaultValue="@string/fetch_delay_default"
+            android:hint="@string/fetch_delay_hint"
+            android:key="fetch_delay"
+            android:title="@string/fetch_delay" />
+
+        <EditTextPreference
+            android:defaultValue="@string/warn_chg_default"
+            android:hint="@string/warn_chg_hint"
+            android:key="warn_chg"
+            android:title="@string/warn_chg" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="hint_tone"
+            android:title="@string/hint_tone" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:key="author"
+            android:summary="@string/ydz"
+            android:title="@string/author" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
